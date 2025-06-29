@@ -1,21 +1,21 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from './pages/HomePage';
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
+
 import Navbar from './pages/Navbar';
+import Login from './pages/Login';
+
 
 const App = () => {
   return (
-    <div>
-      
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
-
-    </div>
+    <BrowserRouter>
+      <Navbar/>
+      <Routes>
+       
+        <Route path="/" element={<Login />} />
+       
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App;
+export default App
