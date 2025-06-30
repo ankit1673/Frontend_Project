@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cart = () => {
   return (
-    <div className='w-full max-w-md bg-white p-4 sm:p-6 shadow-lg rounded-lg mx-auto'>
+    <div className='w-full max-w-md bg-gray-100 m-4 p-4 sm:p-6 shadow-lg rounded-lg mx-auto'>
     <h1 className='text-lg font-bold mb-4 text-center'>Your Cart</h1>
    <div className='space-y-4'>
     {/* Cart Items */}
@@ -24,7 +24,15 @@ const Cart = () => {
             </div>
         </div>
     </div>
-
+    <div className='mt-6 pt-4 '>
+        <div className='flex justify-between  font-semibold text-lg mb-2'>
+            <span>Total Price :</span>
+            <span>250₹</span>
+        </div>
+        <button className='w-full bg-green-500 hover:bg-green-800 transition text-white py-3 rounded-lg font-semibold tex-lg'>
+            Proceed to Checkout
+        </button>
+    </div>
    </div>
     </div>
   )
