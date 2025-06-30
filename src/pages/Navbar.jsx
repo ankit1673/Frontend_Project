@@ -19,10 +19,10 @@ const Navbar = () => {
             {/*Navigations*/}
             
             <div className="hidden md:flex items-center gap-6 font-semibold text-gray-700">
-                <Link to="/home" className="hover:text-green-600">Home</Link>
-                <Link to="/categories" className="hover:text-green-600">Categories</Link>
-                <Link to="/offers" className="hover:text-green-600">Offers</Link>
-                <Link to="/contact" className="hover:text-green-600">Contact</Link>
+                <Link to={"/home"} className="hover:text-green-600">Home</Link>
+                <Link to={"/categories"} className="hover:text-green-600">Categories</Link>
+                <Link to={"/offers"} className="hover:text-green-600">Offers</Link>
+                <Link to={"/contact"} className="hover:text-green-600">Contact</Link>
             </div>
 
             {/* Login & cart button*/}
