@@ -1,0 +1,27 @@
+# Blinkit Clone
+
+This is a frontend clone of Blinkit using Vite, React, Tailwind CSS, and Redux Toolkit.
+
+## Ì∫Ä How to Run Locally
+
+1. Clone this repo
+2. Run `npm install`
+3. Run `npm run dev`
+
+## Ì∑∞ Tech Stack
+
+- React
+- Tailwind CSS
+- Redux Toolkit
+- Vite
+
+## Ì≥Å Folder Structure
+
+- `src/` ‚Äî all components/pages/assets
+- `store.js` ‚Äî Redux store
+- `index.css`, `App.jsx` ‚Äî root setup
+
+## ‚úçÔ∏è Author
+
+Ankit Kumar Tiwari
+
